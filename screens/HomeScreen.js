@@ -1,22 +1,43 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import {StatusBar, SafeAreaView, View, Image, Text, ScrollView} from "react-native";
 import styles from "../config/styles";
 import Searchbar from "../components/Searchbar";
 import ForecastDetails from "../components/ForecastDetails";
 import ForecastItem from "../components/ForecastItem";
+import {fetchWeather} from "../components/api";
+import { transformWeatherData } from '../components/helpers';
 import {ArrowTrendingUpIcon, CalendarDaysIcon} from "react-native-heroicons/outline";
 
 export default function HomeScreen() {
 
+    const [weatherData, setWeatherData] = useState(null);
     const forecastData = [
-        { icon: require('../assets/heavyrain.png'), day: 'Monday', temperature: '25°C' },
-        { icon: require('../assets/heavyrain.png'), day: 'Tuesday', temperature: '25°C' },
-        { icon: require('../assets/heavyrain.png'), day: 'Wednesday', temperature: '25°C' },
-        { icon: require('../assets/heavyrain.png'), day: 'Thursday', temperature: '25°C' },
-        { icon: require('../assets/heavyrain.png'), day: 'Friday', temperature: '25°C' },
-        { icon: require('../assets/heavyrain.png'), day: 'Friday', temperature: '25°C' },
-        { icon: require('../assets/heavyrain.png'), day: 'Friday', temperature: '25°C' },
+        {icon: require('../assets/heavyrain.png'), day: 'Monday', temperature: '25°C'},
+        {icon: require('../assets/heavyrain.png'), day: 'Tuesday', temperature: '25°C'},
+        {icon: require('../assets/heavyrain.png'), day: 'Wednesday', temperature: '25°C'},
+        {icon: require('../assets/heavyrain.png'), day: 'Thursday', temperature: '25°C'},
+        {icon: require('../assets/heavyrain.png'), day: 'Friday', temperature: '25°C'},
+        {icon: require('../assets/heavyrain.png'), day: 'Friday', temperature: '25°C'},
+        {icon: require('../assets/heavyrain.png'), day: 'Friday', temperature: '25°C'},
     ];
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetchWeather(51.5, -0.120000124);
+                const transformedData= transformWeatherData(response);
+                setWeatherData(transformedData);
+                console.log(transformedData);
+            } catch (error) {
+                console.error('Error fetching weather data:', error);
+            }
+        };
+        fetchData();
+    }, []);
+
+    useEffect(() => {
+        console.log(weatherData);
+    }, [weatherData]);
 
     return (
         <SafeAreaView style={styles.container}>
@@ -43,7 +64,8 @@ export default function HomeScreen() {
                 <CalendarDaysIcon size={20} color="lightgray"/>
                 <Text style={styles.sectionHeaders}>Forecast</Text>
             </View>
-            <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{maxHeight: 130, position: 'absolute', bottom: 16}}>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false}
+                        style={{maxHeight: 130, position: 'absolute', bottom: 16}}>
                 {forecastData.map((item, index) => (
                     <ForecastItem key={index} {...item} />
                 ))}

@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d031bf0b-28f9-4e8a-a443-fd25a6b959dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ForecastDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ForecastDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Searchbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +73,7 @@
       <workItem from="1715601586367" duration="50000" />
       <workItem from="1715665041553" duration="5973000" />
       <workItem from="1715752238011" duration="2592000" />
+      <workItem from="1715837203158" duration="3099000" />
     </task>
     <servers />
   </component>
