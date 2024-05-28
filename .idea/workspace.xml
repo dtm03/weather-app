@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d031bf0b-28f9-4e8a-a443-fd25a6b959dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/asyncStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ForecastDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ForecastDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ForecastItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ForecastItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Searchbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/HomeScreen.js" afterDir="false" />
@@ -52,6 +58,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dts\Documents\Coding\weather-app\components" />
+      <recent name="C:\Users\dts\Documents\Coding\weather-app\config" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,6 +86,13 @@
       <workItem from="1715665041553" duration="5973000" />
       <workItem from="1715752238011" duration="2592000" />
       <workItem from="1715837203158" duration="3099000" />
+      <workItem from="1715852621210" duration="33000" />
+      <workItem from="1716829863534" duration="5335000" />
+      <workItem from="1716876433667" duration="3538000" />
+      <workItem from="1716889323072" duration="622000" />
+      <workItem from="1716903902923" duration="1395000" />
+      <workItem from="1716912991280" duration="2991000" />
+      <workItem from="1716930512086" duration="1823000" />
     </task>
     <servers />
   </component>

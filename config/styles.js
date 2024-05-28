@@ -33,7 +33,8 @@ export default StyleSheet.create({
     },
     searchInputContainer: {
         flexDirection: 'row',
-        alignItems: 'center',
+        justifyContent: 'flex-end',
+        width: width - 32,
         borderRadius: 30,
         paddingHorizontal: 4,
         paddingVertical: 4,
@@ -67,7 +68,7 @@ export default StyleSheet.create({
         alignItems: 'center',
     },
     detailContainer: {
-        backgroundColor: 'rgba(255, 255, 255, 0.2)',
+        backgroundColor: 'transparent',
         borderRadius: 10,
         padding: 16,
         flexDirection: 'row',
@@ -132,5 +133,21 @@ export default StyleSheet.create({
         paddingVertical: 10,
         paddingHorizontal: 32,
         borderBottomColor: 'gray',
-    }
+    },
+    loadingContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        backgroundColor: 'rgba(0, 0, 0, 0.5)'
+    },
+    borderLine: {
+        height: 1,
+        backgroundColor: "gray",
+        width: width - 32,
+    },
 });
