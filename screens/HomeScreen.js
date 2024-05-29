@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import {StatusBar, SafeAreaView, View, Image, Text, ScrollView, ProgressBarAndroid} from "react-native";
+import {StatusBar, SafeAreaView, View, Image, Text, ScrollView} from "react-native";
 import styles from "../config/styles";
 import Searchbar from "../components/Searchbar";
 import ForecastDetails from "../components/ForecastDetails";

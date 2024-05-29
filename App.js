@@ -3,6 +3,8 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 import HomeScreen from "./screens/HomeScreen";
 
+require('dotenv').config()
+
 const Stack = createStackNavigator();
 
 export default function App() {
