@@ -6,7 +6,7 @@ import ForecastDetails from "../components/ForecastDetails";
 import ForecastItem from "../components/ForecastItem";
 import {ArrowTrendingUpIcon, CalendarDaysIcon} from "react-native-heroicons/outline";
 import {weatherImages} from "../config/constants";
-import {fetchWeatherForecast} from "../components/api";
+import {fetchWeatherForecast} from "../api/api";
 import * as Progress from "react-native-progress";
 import {getData} from "../components/asyncStorage";
 

@@ -3,7 +3,7 @@ import React, {useCallback, useState} from "react";
 import {TextInput, TouchableOpacity, View, Text} from "react-native";
 import {MagnifyingGlassIcon, MapPinIcon} from "react-native-heroicons/outline";
 import {debounce} from "lodash";
-import {fetchLocations, fetchWeatherForecast} from "./api";
+import {fetchLocations, fetchWeatherForecast} from "../api/api";
 import {storeData} from "./asyncStorage";
 
 
