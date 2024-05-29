@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d031bf0b-28f9-4e8a-a443-fd25a6b959dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/config/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dts\Documents\Coding\weather-app\api" />
       <recent name="C:\Users\dts\Documents\Coding\weather-app\components" />
       <recent name="C:\Users\dts\Documents\Coding\weather-app\config" />
     </key>
@@ -83,7 +88,8 @@
       <workItem from="1716903902923" duration="1395000" />
       <workItem from="1716912991280" duration="2991000" />
       <workItem from="1716930512086" duration="1823000" />
-      <workItem from="1716970168724" duration="2030000" />
+      <workItem from="1716970168724" duration="3813000" />
+      <workItem from="1716975991354" duration="223000" />
     </task>
     <servers />
   </component>
